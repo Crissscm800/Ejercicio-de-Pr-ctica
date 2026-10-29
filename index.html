@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mensajes positivos</title>
+</head>
+<body>
+    <h1>Mensajes positivos</h1>
+
+    <p>Presiona el botón para recibir un mensaje.</p>
+
+    <button onclick="mostrarMensaje()">Ver mensaje</button>
+
+    <p id="mensaje"></p>
+
+    <script>
+        function mostrarMensaje() {
+            document.getElementById("mensaje").textContent =
+                "¡Tú puedes lograr todo lo que te propongas!";
+        }
+    </script>
+</body>
+</html>
